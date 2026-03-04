@@ -35,3 +35,8 @@
 
         - O comando git push -u origin main é utilizado para enviar os commits do repositório local para um repositório remoto pela
         primeira vez, estabelecendo simultaneamente uma relação de rastreamento entre as branches.
+
+    git pull:
+
+        - O comando git pull é utilizado para buscar as alterações de um repositório remoto e integrá-las imediatamente ao seu diretório de
+        trabalho local. Ele é, tecnicamente, a combinação de duas operações distintas executadas em sequência.
