@@ -1,0 +1,37 @@
+    git status :
+
+        - O git status é basicamente o "relatório de situação" do seu projeto. Ele é o comando mais utilizado para entender o que está
+        acontecendo no seu repositório em um determinado momento.
+
+    git init :
+
+        - O comando git init é a instrução utilizada para inicializar um novo repositório Git em um diretório específico. Ele é o primeiro
+        passo para o controle de versão em um projeto que ainda não é monitorado pela ferramenta.
+
+    git add :
+
+        - O comando git add é o comando utilizado para adicionar alterações do diretório de trabalho (working directory) à área de
+        preparação (staging area ou index). Ele serve como um filtro intermediário: você seleciona quais modificações deseja incluir no
+        próximo registro de histórico (commit).
+
+    git commit :
+
+        - O comando git commit é o comando responsável por consolidar as alterações previamente adicionadas à staging area e gravá-las
+        permanentemente no histórico do repositório. Ele cria um ponto de restauração (snapshot) do projeto em um determinado momento e
+        adicionar uma descrição ao arquivo commitado.
+
+    git branch (ramificação) -M Main :
+
+        - O comando git branch é a ferramenta de gerenciamento de linhas de desenvolvimento dentro de um repositório. Ele permite a
+        criação, listagem, renomeação e exclusão de ramificações, possibilitando que múltiplas versões do código coexistam de forma isolada.
+
+    git remote add origin https://github.com/JNands/Notas_Curso_Git_GitHub.git :
+
+        - O comando git remote add origin é utilizado para estabelecer uma conexão entre um repositório local e um repositório remoto
+        (hospedado em plataformas como GitHub, GitLab ou Bitbucket). Ele registra um mapeamento de rede para que o Git saiba para onde
+        enviar ou de onde buscar dados.
+
+    git push -u origin main : 
+
+        - O comando git push -u origin main é utilizado para enviar os commits do repositório local para um repositório remoto pela
+        primeira vez, estabelecendo simultaneamente uma relação de rastreamento entre as branches.
